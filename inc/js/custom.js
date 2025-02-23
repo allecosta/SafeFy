@@ -1,23 +1,23 @@
 // Get current year
 (function () {
-    var year = new Date().getFullYear();
+    let year = new Date().getFullYear();
     document.querySelector("#currentYear").innerHTML = year;
 })();
 
 // Hero Area
-var c = document.getElementById("c");
-var ctx = c.getContext("2d");
+let c = document.getElementById("c");
+let ctx = c.getContext("2d");
 c.height = window.innerHeight;
 c.width = window.innerWidth;
 
-var matrix = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}";
+let matrix = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}";
 matrix = matrix.split("");
 
-var font_size = 10;
-var columns = c.width / font_size;
-var drops = [];
+let font_size = 10;
+let columns = c.width / font_size;
+let drops = [];
 
-for (var x = 0; x < columns; x++)
+for (let x = 0; x < columns; x++)
     drops[x] = 1;
 
 function draw() {
@@ -27,8 +27,8 @@ function draw() {
     ctx.fillStyle = "#4bf442";
     ctx.font = font_size + "px arial";
 
-    for (var i = 0; i < drops.length; i++) {
-        var text = matrix[Math.floor(Math.random() * matrix.length)];
+    for (let i = 0; i < drops.length; i++) {
+        let text = matrix[Math.floor(Math.random() * matrix.length)];
         ctx.fillText(text, i * font_size, drops[i] * font_size);
 
         if (drops[i] * font_size > c.height && Math.random() > 0.975)
@@ -37,4 +37,4 @@ function draw() {
         drops[i]++;
     }
 }
-setInterval(draw, 25);
+setInterval(draw, 25)

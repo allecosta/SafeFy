@@ -3,7 +3,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #525252;
-  background-color: #0A0A0A;
+  /*background-color: #0A0A0A;*/
 }
 
 .layout_padding {
@@ -148,7 +148,7 @@ body {
 }
 
 .header_top {
-  background-color: #0A0A0A;
+  background-color: #000;
   padding: 15px 0;
 }
 
@@ -355,7 +355,7 @@ a:focus {
 }
 
 .slider_section .detail-box .btn-box a {
-  width: 180px;
+  width: 232px;
   text-align: center;
   margin: 5px;
 }
@@ -470,7 +470,7 @@ a:focus {
 }
 
 .service_section {
-  background-color: #0A0A0A;
+  background-color: #000;
 }
 
 .service_section .heading_container {
@@ -795,7 +795,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #0A0A0A;
+  background-color: #000;
   color: #ffffff;
   padding: 75px 0 10px 0;
 }
@@ -907,7 +907,7 @@ a:focus {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 20px;
-  background-color: #0A0A0A;
+  background-color: #000;
 }
 
 .footer_section p {
