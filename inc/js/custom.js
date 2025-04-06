@@ -1,9 +1,3 @@
-// Get current year
-(function () {
-    let year = new Date().getFullYear();
-    document.querySelector("#currentYear").innerHTML = year;
-})();
-
 // Hero Area
 let c = document.getElementById("c");
 let ctx = c.getContext("2d");
@@ -37,4 +31,10 @@ function draw() {
         drops[i]++;
     }
 }
-setInterval(draw, 25)
+setInterval(draw, 25);
+
+// Get current year
+(function () {
+    let year = new Date().getFullYear();
+    document.querySelector("#currentYear").innerHTML = year;
+})();
