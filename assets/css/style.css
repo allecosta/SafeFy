@@ -148,7 +148,7 @@ body {
 }
 
 .header_top {
-  background-color: #000;
+  //background-color: #000;
   padding: 15px 0;
 }
 
@@ -690,7 +690,7 @@ a:focus {
 .contact_section .contact_form-container button:hover {
   background-color: transparent;
   border-color: #525252;
-  color: #101010;
+  color: #ffffff;
 }
 
 .contact_bg_box {
@@ -791,7 +791,7 @@ a:focus {
 .team_section .btn-box a:hover {
   background-color: transparent;
   border-color: #525252;
-  color: #101010;
+  color: #ffffff;
 }
 
 .info_section {
