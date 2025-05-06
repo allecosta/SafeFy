@@ -45,7 +45,7 @@ body {
 .heading_container h2 {
   position: relative;
   font-weight: bold;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   padding-bottom: 10px;
 }
 
