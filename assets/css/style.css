@@ -503,6 +503,11 @@ a:focus {
   margin-bottom: 20px;
 }
 
+.service_section .box .detail-box li {
+  text-align: left;
+  text-decoration: none;
+}
+
 .service_section .box .detail-box a {
   display: inline-block;
   padding: 8px 35px;
@@ -693,6 +698,7 @@ a:focus {
   color: #ffffff;
 }
 
+/*
 .contact_bg_box {
   position: absolute;
   top: 0;
@@ -730,9 +736,10 @@ a:focus {
   height: 100%;
   background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.35)));
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.35));
-}
+} */
 
 /* end contact section */
+
 .team_section .box {
   display: -webkit-box;
   display: -ms-flexbox;
