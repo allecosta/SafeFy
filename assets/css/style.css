@@ -1,7 +1,8 @@
 @import url("font-awesome.min.css");
 
 body {
-  font-family: "Poppins", sans-serif;
+  /*font-family: "Poppins", sans-serif;*/
+  font-family: JetBrains Mono,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;
   color: #525252;
   /*background-color: #0A0A0A;*/
 }
@@ -355,7 +356,7 @@ a:focus {
 }
 
 .slider_section .detail-box .btn-box a {
-  width: 232px;
+  width: 200px;
   text-align: center;
   margin: 5px;
 }
