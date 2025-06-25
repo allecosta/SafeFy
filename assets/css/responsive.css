@@ -84,7 +84,6 @@
   }
 
   .info_section .row .col-md-3 {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -102,6 +101,10 @@
 
   .info_section .info_form .social_box a {
     margin: 0 5px;
+  }
+
+  .about_section .img_container .img-box img {
+    margin-top: 30px;
   }
 }
 
