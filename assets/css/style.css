@@ -137,10 +137,10 @@ body {
   margin: 0 auto;
 }
 
-.header_top {
-  /*background-color: #000;*/
+/*.header_top {
+  background-color: #000;
   padding: 15px 0;
-}
+}*/
 
 #navbarSupportedContent {
   -webkit-box-pack: justify;
