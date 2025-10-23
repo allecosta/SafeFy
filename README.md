@@ -1,10 +1,10 @@
 # SafeFy Application Security
 
-*Tecnologia com transparência e liberdade. Nosso site é open-source e está disponível a toda a comunidade.*
+*Nosso site é open-source e está disponível a toda a comunidade.*
 
-*Website: https://safefy.netlify.app/*
+*Website: https://safefyappsec.com.br/*
 
-## Política de Segurança
-- Reporte vulnerabilidades para: safefy@protonmail.com
-- Favor, não exponha credenciais nos issues
+## Security
+- Favor, reportar vulnerabilidades para: safefy@protonmail.com
+
 
