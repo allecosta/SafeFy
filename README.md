@@ -1,4 +1,6 @@
-# Safefy Application Security
+# SafeFy Application Security
 
-*Website: https://safefy.netlify.app/*
+*Website: https://safefyappsec.com.br/*
 
+## Security
+- Favor, reportar vulnerabilidades para: safefy@protonmail.com
